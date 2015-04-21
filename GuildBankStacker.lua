@@ -104,8 +104,11 @@ function GuildBankStacker:UpdateStackButton()
 		return
 	end
 	
-	bEnable = self.tStackable ~= nil and #self.tStackable > 0
-	self.overlayForm:FindChild("StackButton"):Enable(bEnable)	
+	local bEnable = self.tStackable ~= nil and #self.tStackable > 0
+	local wndButton = self.overlayForm:FindChild("StackButton")
+	if wndButton ~= nil then
+		wndButton:Enable(bEnable)	
+	end
 end
 
 -- An item is considered stackable if it has a current stacksize < max stacksize.
