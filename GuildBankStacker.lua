@@ -12,7 +12,7 @@ function GuildBankStacker:new(o)
 end
 
 function GuildBankStacker:Init()
-	Apollo.RegisterAddon(self, true, "GuildBankStacker", nil)	
+	Apollo.RegisterAddon(self, false, "GuildBankStacker", nil)	
 end
 
 function GuildBankStacker:OnLoad()	
