@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Forms>
+    <Form Class="Window" LAnchorPoint="1" LAnchorOffset="-120" TAnchorPoint="0" TAnchorOffset="15" RAnchorPoint="1" RAnchorOffset="-60" BAnchorPoint="0" BAnchorOffset="65" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="StackButtonOverlayForm" Border="0" Picture="0" SwallowMouseClicks="1" Moveable="0" Escapable="0" Overlapped="0" TooltipColor="" IgnoreMouse="1" NewWindowDepth="0" Tooltip="" TextId="" NoClip="0" TestAlpha="0" DoNotBlockTooltip="0" IgnoreTooltipDelay="1">
+        <Control Class="Button" Base="BK3:btnHolo_Blue_Small" Font="DefaultButton" ButtonType="PushButton" RadioGroup="" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" DT_VCENTER="1" DT_CENTER="1" BGColor="UI_BtnBGDefault" TextColor="ChatZone" NormalTextColor="UI_BtnTextBlueNormal" PressedTextColor="UI_BtnTextBluePressed" FlybyTextColor="UI_BtnTextBlueFlyby" PressedFlybyTextColor="UI_BtnTextBluePressedFlyby" DisabledTextColor="UI_BtnTextBlueDisabled" TooltipType="OnCursor" Name="StackButton" TooltipColor="" NewWindowDepth="1" Border="0" Tooltip="" IgnoreMouse="0" DrawAsCheckbox="0" Text="Stack" TextId="" NoClip="1" Overlapped="1" TestAlpha="1" DoNotBlockTooltip="1" IgnoreTooltipDelay="1">
+            <Event Name="ButtonSignal" Function="OnButtonSignal"/>
+            <Event Name="MouseEnter" Function="OnMouseEnter"/>
+            <Event Name="MouseExit" Function="OnMouseExit"/>
+        </Control>
+    </Form>
+</Forms>
